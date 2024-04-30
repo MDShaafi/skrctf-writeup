@@ -37,6 +37,7 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 0: invalid 
 '''
 
 After searching up online for a bit I have come across a solution in stackoverflow. Seems thatu cannot use "r" and "w" on jpgs wihtout errors so after changing tha and rewriting the code I finally get the uncorrupted image. 
+
 ![flag](flag.jpg)(flag.jpg)
 
 
