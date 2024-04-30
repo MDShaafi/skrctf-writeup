@@ -12,7 +12,7 @@ Note: Download the qrcode.png to scan and download using android device
 
 # Solution
 
-First to begin I downloaded mysecret.apk (![mysecret apk](mysecret.apk)) on my laptop and used the qrcode to download a mysecret.apk ![mysercret qr code](https://skrctf.me/files/e3e75d860ef017739becf0793f3a757c/qrcode.png) on my phone.
+First to begin I downloaded mysecret.apk ((![mysecret apk](mysecret.apk)) on my laptop and used the qrcode to download a mysecret.apk ![mysercret qr code](https://skrctf.me/files/e3e75d860ef017739becf0793f3a757c/qrcode.png)) on my phone.
 
 After this to analyze the apk file use whatever tool you are comfortable with. Personally I am more familiar with  jadx-gui.
 
