@@ -8,8 +8,7 @@ OMG! My picture is corrupted with Kolona virus! I managed to get the virus sourc
 
 # Solution
 
-First to begin I downloaded 2 files a zip file ![TheKolonaVirus](The_Kolona_Virus.zip) and the corrupted img file ![kolonaFlag](flag.kolona)
-
+First to begin I downloaded 2 files a zip file (![TheKolonaVirus](The_Kolona_Virus.zip)) and the corrupted img file (![kolonaFlag](flag.kolona))
 Once downloaded and unzipped the zip file I got 3 files kolona_virus, MN908947 and spread_kolona.py.
 
 The hint in skr ctf you will get "Have you tried to "print" the virus?". So following these wise words I just played around with the python file changed the last exec() command to a print() to print the virus.
