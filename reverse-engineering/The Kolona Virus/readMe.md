@@ -25,7 +25,7 @@ for i,c in enumerate(flag.read()):
         kolona.write(chr(ord(c) ^ ord(key[i % len(key)])))
 ```
 
-From here I just created a nex python file called flag.py copy pasted the code and saved it and then run it. Only to end up with a error...
+From here I just created a new python file called flag.py copy pasted the code and saved it and then run it. Only to end up with a error...
 ```python
 └─$ sudo python flag.py 
 Traceback (most recent call last):
@@ -36,9 +36,9 @@ Traceback (most recent call last):
 UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbc in position 0: invalid start byte
 ```
 
-After searching up online for a bit I have come across a solution in stackoverflow. Seems thatu cannot use "r" and "w" on jpgs wihtout errors so after changing tha and rewriting the code I finally get the uncorrupted image. 
+After searching up online for a bit I have come across a solution in stackoverflow. Seems that you cannot use "r" and "w" on jpgs wihtout errors so after changing that and rewriting the code I finally get the uncorrupted image. 
 
-![flag](flag.jpg)(flag.jpg)
+![flag](flag.jpg)
 
 
 **Flag:** SKRCTF{V1rus_1s_3verywhere_pl3453_st4y_4t_H0me}
