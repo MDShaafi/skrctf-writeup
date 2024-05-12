@@ -1,4 +1,4 @@
-# What5Th3Pa55Cod3? 20
+# What5Th3Pa55Cod3? 
 
 After we used Kuki's birthday to unlock a phone in his place, we found a `mysecret.apk` in the phone, but it needs a passcode to view the secret.
 
