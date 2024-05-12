@@ -1,4 +1,4 @@
-# The Kolona Virus 20
+# The Kolona Virus
 
 OMG! My picture is corrupted with the Kolona virus! I managed to get the virus source code and the corrupted picture, please help me recover it. I will give you a flag for a reward!
 
