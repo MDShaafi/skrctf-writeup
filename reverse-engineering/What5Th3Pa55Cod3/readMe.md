@@ -23,6 +23,6 @@ And finally, I obtain the flag.
 
 ![flag](flag.jpg)
 
-**Flag:** SKRCTF{Y0U_F0UND_MY_CIGAR3TT35}
+**Flag:** SKR{Y0U_F0UND_MY_CIGAR3TT35}
 
 tADAAHHH!!!
