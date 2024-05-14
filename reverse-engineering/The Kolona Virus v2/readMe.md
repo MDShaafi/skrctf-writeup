@@ -9,9 +9,9 @@ I have a important file corrupted by the virus, please help me recover it again,
 
 First, to begin, I downloaded the zip file ([The_Kolona_Virus_2](The_Kolona_Virus_2.zip)). Once downloaded and unzipped the zip file I got 5 files: `flag.kolona`, `MT568643`, `spread_kolona.pyc`, `evolved_virus` and `original_virus`.
 
-You'll get 2 hints both of them are useless. First thing I did I noticed the .pyc and decided might as well decompile it. 
+You'll get 2 hints both of them are useless so ignore them. First thing I did I noticed there was a .pyc and decided might as well decompile it using my favourite decompiler pycdc. 
 
-![alt text](image.png)
+![emoji](image.png)
 
 (Do note I tried running it and just got error 😔)
 
@@ -95,6 +95,7 @@ for i in range(len(original_virus)):
 print(evolve_virus)
 ```
 
+Run the extracted and fixed python script on terminal
 
 ```js
 ┌──(kali㉿kali)-[~/Downloads/skrctf/ThekolonaVirusv2]
@@ -112,7 +113,7 @@ exec(code)
              
 ```
 
-Fixed the code that was outputted
+Fixed the code that was outputted.
 
 ```py
 kolona_genome = open("MT568643",'r').read()
@@ -179,4 +180,8 @@ And finally got the png
 
 **Flag:** SKR{W3_will_W1N!!}
 
-Habis!!!
+Završi!!!
+
+Finally finished my first hard level CTF 
+
+![emoji](image-1.png)
