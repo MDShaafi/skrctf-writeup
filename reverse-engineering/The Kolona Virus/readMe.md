@@ -38,6 +38,6 @@ After searching online for a bit, I have come across a solution on Stack Overflo
 ![flag](flag.jpg)
 
 
-**Flag:** SKRCTF{V1rus_1s_3verywhere_pl3453_st4y_4t_H0me}
+**Flag:** SKR{V1rus_1s_3verywhere_pl3453_st4y_4t_H0me}
 
 Habis!!!
