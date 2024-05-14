@@ -9,7 +9,7 @@ I have a important file corrupted by the virus, please help me recover it again,
 
 First, to begin, I downloaded the zip file ([The_Kolona_Virus_2](The_Kolona_Virus_2.zip)). Once downloaded and unzipped the zip file I got 5 files: `flag.kolona`, `MT568643`, `spread_kolona.pyc`, `evolved_virus` and `original_virus`.
 
-You'll get 2 hints both of them are useless. First thing I did I noticed the .pyc and decided might as well decompile it. 
+You'll get 2 hints both of them are useless so ignore them. First thing I did I noticed there was a .pyc and decided might as well decompile it using my favourite decompiler pycdc. 
 
 ![emoji](image.png)
 
