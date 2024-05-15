@@ -158,15 +158,27 @@ for i,c in enumerate(flag.read()):
 Finally got the original code used to decrypt the flag. Just gotta reverse engineer this to get the flag.png.
 
 ```py
-import random
-flag = open("flag.png","r")
-kolona = open("flag.kolona","w+")
 key = "SARS-CoV-2"
-# Prevent Reverse Engineering!
-random_num = random.randint(1,6666)
 
-for i,c in enumerate(flag.read()):
-        kolona.write(chr((ord(c) + ord(key[i % len(key)]) + random_num) % 256))
+def decrypt_kolona(encrypted_data, key, random_num):
+    decrypted_data = bytearray()
+    key_len = len(key)
+    for i, c in enumerate(encrypted_data):
+        decrypted_byte = (c - ord(key[i % key_len]) - random_num) % 256
+        decrypted_data.append(decrypted_byte)
+    return decrypted_data
+
+with open("flag.kolona", "rb") as kolona_file:
+    encrypted_data = kolona_file.read()
+
+for random_num in range(1, 6667):
+    decrypted_data = decrypt_kolona(encrypted_data, key, random_num)
+    if decrypted_data[:8] == b'\x89PNG\r\n\x1a\n':
+        with open("decrypted_flag.png", "wb") as output_file:
+            output_file.write(decrypted_data)
+        print(f"Successfully decrypted with random_num = {random_num}")
+        break
+
 ```
 
 And just gotta run that ...
